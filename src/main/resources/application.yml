@@ -13,5 +13,8 @@ spring:
         #        线程最大的等待时间，防止线程陷入循环关不掉
         await-termination-period: 10s
 
+aeroscope:
+  token: 666666
+  aeroscopeID:
+  statusCode:
 
-token: 666666

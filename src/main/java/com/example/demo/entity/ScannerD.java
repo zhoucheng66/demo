@@ -9,7 +9,7 @@ import lombok.NoArgsConstructor;
 @Data
 public class ScannerD {
     //站点ID，默认5100001
-    private String StationID;
+    private String stationID;
     //设备ID（杰能科世提供）
     private String ID;
     //经度
