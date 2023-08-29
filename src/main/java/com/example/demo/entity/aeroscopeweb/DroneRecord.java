@@ -11,7 +11,7 @@ public class DroneRecord {
     //相对高度
     private String altitude;
     //飞机维度
-    private String latitude;
+    private Double latitude;
     //翻滚角
     private String roll;
     //向北速度
@@ -33,7 +33,7 @@ public class DroneRecord {
     //飞机类型
     private String productType;
     //飞机经度
-    private String longitude;
+    private Double longitude;
     //飞行记录唯一标识
     private String orderID;
     //OSD序列号
@@ -60,6 +60,23 @@ public class DroneRecord {
     private String altitudeType;
     //状态属性值
     private String status;
+
+    private String latitudeType;
+    //飞行员纬度
+    private Double appGPSLatitude;
+    //飞行员经度
+    private Double appGPSLongitude;
+    //
+    private String appGPStime;
+    //云哨设备ID
+    private String aeroscopeID;
+    //飞机维度
+    private String loc;
+    //飞机经度
+    private String longtude;
+    //
+    private String longtudeSpeed;
+
 
 
 

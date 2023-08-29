@@ -4,6 +4,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
@@ -23,7 +25,7 @@ public class Drone {
     //维度
     private Double latitude;
     //高度
-    private Double height;
+    private String height;
     //当前距离
     private Double distance;
     //频段
@@ -31,7 +33,7 @@ public class Drone {
     //带宽
     private Double bandwidth;
     //速度
-    private Double speed;
+    private String speed;
     //水平角（扩展）
     private Double horizontalHeadingAngle;
     //垂直角（扩展）
@@ -41,7 +43,7 @@ public class Drone {
     //0遥控器，1无人机
     private Integer type;
     //持续时间
-    private Integer lastingTime;
+    private String lastingTime;
     //无人机唯一ID（白名单）
     private String droneUuid;
 

@@ -25,5 +25,5 @@ public class AeroscopeInfo {
    //0为旧协议，1为新协议
    private String version;
    //0为离线，1正常，2异常
-   private String statusCode;
+   private Integer statusCode;
 }
